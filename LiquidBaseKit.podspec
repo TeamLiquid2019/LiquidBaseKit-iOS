@@ -40,13 +40,13 @@ Pod::Spec.new do |s|
   
   #-----------------文件分级-------------------#
   
-  s.subspec 'Macro' do |ss|
-    ss.source_files = 'LiquidBaseKit/Classes/Macro/*.{h,m}'
-  end
+#  s.subspec 'Macro' do |ss|
+#    ss.source_files = 'LiquidBaseKit/Classes/Macro/*.{h,m}'
+#  end
   
   s.subspec 'Util' do |ss|
     ss.source_files = 'LiquidBaseKit/Classes/Util/*.{h,m}'
-    ss.dependency 'LiquidBaseKit/Macro'
+#    ss.dependency 'LiquidBaseKit/Macro'
   end
   
   s.subspec 'RSA' do |ss|
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Networking' do |ss|
     ss.source_files = 'LiquidBaseKit/Classes/Networking/*.{h,m}'
-    ss.dependency 'LiquidBaseKit/Macro'
+#    ss.dependency 'LiquidBaseKit/Macro'
     ss.dependency 'LiquidBaseKit/RSA'
     ss.dependency 'LiquidBaseKit/Util'
   end

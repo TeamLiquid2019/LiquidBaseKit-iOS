@@ -1,6 +1,6 @@
 {
   "name": "LiquidBaseKit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "BaseKit for TeamLiquid.",
   "description": "iOS项目基础组件库，提供宏定义，网络请求，RSA加密，数据库等基础服务（业务无关）.",
   "homepage": "https://github.com/TeamLiquid2019/LiquidBaseKit-iOS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TeamLiquid2019/LiquidBaseKit-iOS.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -39,17 +39,8 @@
   },
   "subspecs": [
     {
-      "name": "Macro",
-      "source_files": "LiquidBaseKit/Classes/Macro/*.{h,m}"
-    },
-    {
       "name": "Util",
-      "source_files": "LiquidBaseKit/Classes/Util/*.{h,m}",
-      "dependencies": {
-        "LiquidBaseKit/Macro": [
-
-        ]
-      }
+      "source_files": "LiquidBaseKit/Classes/Util/*.{h,m}"
     },
     {
       "name": "RSA",
@@ -59,9 +50,6 @@
       "name": "Networking",
       "source_files": "LiquidBaseKit/Classes/Networking/*.{h,m}",
       "dependencies": {
-        "LiquidBaseKit/Macro": [
-
-        ],
         "LiquidBaseKit/RSA": [
 
         ],

@@ -17,48 +17,39 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - LiquidBaseKit (0.0.1):
+  - LiquidBaseKit (0.0.2):
     - AFNetworking (~> 3.2.1)
     - FMDB
-    - LiquidBaseKit/DB (= 0.0.1)
-    - LiquidBaseKit/Macro (= 0.0.1)
-    - LiquidBaseKit/Networking (= 0.0.1)
-    - LiquidBaseKit/RSA (= 0.0.1)
-    - LiquidBaseKit/Util (= 0.0.1)
+    - LiquidBaseKit/DB (= 0.0.2)
+    - LiquidBaseKit/Networking (= 0.0.2)
+    - LiquidBaseKit/RSA (= 0.0.2)
+    - LiquidBaseKit/Util (= 0.0.2)
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/DB (0.0.1):
-    - AFNetworking (~> 3.2.1)
-    - FMDB
-    - OpenSSL-for-iOS (~> 1.0.2.d.1)
-    - ReactiveObjC (~> 3.1.0)
-    - YYKit
-  - LiquidBaseKit/Macro (0.0.1):
+  - LiquidBaseKit/DB (0.0.2):
     - AFNetworking (~> 3.2.1)
     - FMDB
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/Networking (0.0.1):
+  - LiquidBaseKit/Networking (0.0.2):
     - AFNetworking (~> 3.2.1)
     - FMDB
-    - LiquidBaseKit/Macro
     - LiquidBaseKit/RSA
     - LiquidBaseKit/Util
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/RSA (0.0.1):
+  - LiquidBaseKit/RSA (0.0.2):
     - AFNetworking (~> 3.2.1)
     - FMDB
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/Util (0.0.1):
+  - LiquidBaseKit/Util (0.0.2):
     - AFNetworking (~> 3.2.1)
     - FMDB
-    - LiquidBaseKit/Macro
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
@@ -86,7 +77,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  LiquidBaseKit: 80ecc22f7fbc9a0376e501dfc03ff64f37d0bdd1
+  LiquidBaseKit: 86b4f31feec26c7178bd0022b44b31ffee7ab7e1
   OpenSSL-for-iOS: d7a30add88a1969b052135adbe48452af231ed32
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
