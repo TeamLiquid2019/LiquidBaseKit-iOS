@@ -8,6 +8,8 @@
 
 #import "TLViewController.h"
 
+#import <LiquidBaseKit/TLUtil.h>
+
 @interface TLViewController ()
 
 @end
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *uuid = [TLUtil getUUIDString];
+    NSLog(@"%@",uuid);
 }
 
 - (void)didReceiveMemoryWarning
