@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LiquidBaseKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = 'BaseKit for TeamLiquid.'
 
 # This description is used to generate tags and improve search results.
@@ -43,6 +43,10 @@ Pod::Spec.new do |s|
 #  s.subspec 'Macro' do |ss|
 #    ss.source_files = 'LiquidBaseKit/Classes/Macro/*.{h,m}'
 #  end
+
+  s.subspec 'Cache' do |ss|
+    ss.source_files = 'LiquidBaseKit/Classes/Cache/*.{h,m}'
+  end
   
   s.subspec 'Util' do |ss|
     ss.source_files = 'LiquidBaseKit/Classes/Util/*.{h,m}'
@@ -56,8 +60,8 @@ Pod::Spec.new do |s|
   s.subspec 'Networking' do |ss|
     ss.source_files = 'LiquidBaseKit/Classes/Networking/*.{h,m}'
 #    ss.dependency 'LiquidBaseKit/Macro'
-    ss.dependency 'LiquidBaseKit/RSA'
-    ss.dependency 'LiquidBaseKit/Util'
+#    ss.dependency 'LiquidBaseKit/RSA'
+#    ss.dependency 'LiquidBaseKit/Util'
   end
   
   s.subspec 'DB' do |ss|

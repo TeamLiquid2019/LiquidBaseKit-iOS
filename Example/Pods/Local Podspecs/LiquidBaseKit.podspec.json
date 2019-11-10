@@ -1,6 +1,6 @@
 {
   "name": "LiquidBaseKit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "BaseKit for TeamLiquid.",
   "description": "iOS项目基础组件库，提供宏定义，网络请求，RSA加密，数据库等基础服务（业务无关）.",
   "homepage": "https://github.com/TeamLiquid2019/LiquidBaseKit-iOS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TeamLiquid2019/LiquidBaseKit-iOS.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -38,6 +38,10 @@
     ]
   },
   "subspecs": [
+    {
+      "name": "Cache",
+      "source_files": "LiquidBaseKit/Classes/Cache/*.{h,m}"
+    },
     {
       "name": "Util",
       "source_files": "LiquidBaseKit/Classes/Util/*.{h,m}"
