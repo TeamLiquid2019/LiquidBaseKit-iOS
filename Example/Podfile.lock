@@ -14,49 +14,50 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
-  - LiquidBaseKit (0.0.3):
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - LiquidBaseKit (0.0.4):
     - AFNetworking (~> 3.2.1)
-    - FMDB
-    - LiquidBaseKit/Cache (= 0.0.3)
-    - LiquidBaseKit/DB (= 0.0.3)
-    - LiquidBaseKit/Networking (= 0.0.3)
-    - LiquidBaseKit/RSA (= 0.0.3)
-    - LiquidBaseKit/Util (= 0.0.3)
+    - BGFMDB
+    - LiquidBaseKit/Cache (= 0.0.4)
+    - LiquidBaseKit/DB (= 0.0.4)
+    - LiquidBaseKit/Networking (= 0.0.4)
+    - LiquidBaseKit/RSA (= 0.0.4)
+    - LiquidBaseKit/Util (= 0.0.4)
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/Cache (0.0.3):
+  - LiquidBaseKit/Cache (0.0.4):
     - AFNetworking (~> 3.2.1)
-    - FMDB
+    - BGFMDB
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/DB (0.0.3):
+  - LiquidBaseKit/DB (0.0.4):
     - AFNetworking (~> 3.2.1)
-    - FMDB
+    - BGFMDB
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/Networking (0.0.3):
+  - LiquidBaseKit/Networking (0.0.4):
     - AFNetworking (~> 3.2.1)
-    - FMDB
-    - LiquidBaseKit/RSA
-    - LiquidBaseKit/Util
+    - BGFMDB
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/RSA (0.0.3):
+  - LiquidBaseKit/RSA (0.0.4):
     - AFNetworking (~> 3.2.1)
-    - FMDB
+    - BGFMDB
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
-  - LiquidBaseKit/Util (0.0.3):
+  - LiquidBaseKit/Util (0.0.4):
     - AFNetworking (~> 3.2.1)
-    - FMDB
+    - BGFMDB
     - OpenSSL-for-iOS (~> 1.0.2.d.1)
     - ReactiveObjC (~> 3.1.0)
     - YYKit
@@ -72,7 +73,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - FMDB
+    - BGFMDB
     - OpenSSL-for-iOS
     - ReactiveObjC
     - YYKit
@@ -83,8 +84,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  LiquidBaseKit: 1e547b97436f4d19ded1126116ddf43c060a2b4b
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  LiquidBaseKit: 4df6bcd45a870ce9ead054a4e6393ae01e15a0d0
   OpenSSL-for-iOS: d7a30add88a1969b052135adbe48452af231ed32
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7

@@ -10,19 +10,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class FMDatabaseQueue;
+//@class FMDatabaseQueue;
 
 @interface EEDataBase : NSObject
 
 
-@property(nonatomic,strong)FMDatabaseQueue *dbQueue;
-@property(nonatomic,strong)NSMutableArray *handlers;
-
-- (instancetype)initWithName:(NSString *)dbName andDirName:(NSString *)dirName andUUID:(NSString *)uuid;
-
-- (NSString *)getDataBaseName;
-- (NSString *)getDataBaseFilePath;
-- (NSString *)getDataBaseUUID;
+//@property(nonatomic,strong)FMDatabaseQueue *dbQueue;
+//@property(nonatomic,strong)NSMutableArray *handlers;
+//
+//- (instancetype)initWithName:(NSString *)dbName andDirName:(NSString *)dirName andUUID:(NSString *)uuid;
+//
+//- (NSString *)getDataBaseName;
+//- (NSString *)getDataBaseFilePath;
+//- (NSString *)getDataBaseUUID;
 
 @end
 

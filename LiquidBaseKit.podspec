@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LiquidBaseKit'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'BaseKit for TeamLiquid.'
 
 # This description is used to generate tags and improve search results.
@@ -77,6 +77,6 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking','~> 3.2.1'
   s.dependency 'ReactiveObjC','~> 3.1.0'
   s.dependency 'OpenSSL-for-iOS', '~> 1.0.2.d.1'
-  s.dependency 'FMDB'
+  s.dependency 'BGFMDB'
   
 end
